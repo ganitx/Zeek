@@ -27,10 +27,8 @@
 
    - Github actions.
 
-# Author
-
-   - It's me Gani.
+# Author Gani.
 
 # License
 
-   - MIT (Massachusetts Institute of Technology).
+     - MIT (Massachusetts Institute of Technology).
