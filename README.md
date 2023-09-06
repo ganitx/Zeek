@@ -1,10 +1,36 @@
-1. Data Collection: The system should automatically collect data about the various types of weapons in Call of Duty Warzone 3 from official sources and forums.
-2. Weapon rating: Implement an algorithm to calculate a weapon rating based on various parameters (damage, rate of fire, handling, etc.).
-3. Weapon Meta: Displays the current trends and &quot;meta&quot; in the game.
-4. Popularity history: Graphs of weapon popularity changes by day.
-5. Online rating: Ability to view the current rating of weapons in real time.
+# Overview
 
-Additional functions
-Filters: Ability to filter weapons by various parameters.
-Comparison: Ability to compare different types of weapons.
-Notifications: Alerts for ranking or meta changes.
+    * The project will implement the following:
+        
+        - Collecting data for various types of of weapons in call of duty warzone 3.
+        - An algorithm to calculate the strength of the weapone based on parameters.
+        - Real time updates of current trends in the game for all the exsiting items.
+        - Graphs to show the popularity of weapones based on their rating.
+        - Online rating to view the current rating of weapons in real time.
+    
+    * Further functionality:
+
+        - Filters: Ability to filter weapons by various parameters.
+        - Comparison: Ability to compare different types of weapons.
+        - Notifications: Alerts for ranking or meta changes.
+
+# Technologies, Stack:
+    
+    * Typescript
+    * Next.js + TS
+    * TailwindCSS
+    * GraphQL
+    * Firebase/hosting
+    * amCharts 5
+
+# Tests:
+
+    - Github actions.
+
+# Author
+
+    - It's me Gani.
+
+# License
+
+    - MIT (Massachusetts Institute of Technology).
