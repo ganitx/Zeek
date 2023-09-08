@@ -20,7 +20,6 @@
  * Next.js + TS
  * TailwindCSS
  * GraphQL
- * Firebase/hosting
  * amCharts 5
 
 # Tests:
