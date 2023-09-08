@@ -43,12 +43,12 @@ export const attachments: Weaponse[] = [
     FireRate: 0,
     Mobility: 13,
     Control: -3,
-    Pros: "Aim Down Sight Speed - Movement Speed - Wider Pellet Spread",
+    Pros: "Aim Down Sight Speed",
   },
   {
     id: 3,
     Type: "Mod",
-    Name: "Tempus 32\" Competition",
+    Name: "Tempus 32",
     SubType: "Barrel",
     Weapon: 725,
     Accuracy: 4,
@@ -57,7 +57,7 @@ export const attachments: Weaponse[] = [
     FireRate: 0,
     Mobility: -4,
     Control: -5,
-    Pros: "Damage Range - Tighter Pellet Spread",
+    Pros: "Damage Range",
   },
   {
     id: 4,
@@ -85,7 +85,7 @@ export const attachments: Weaponse[] = [
     FireRate: 0,
     Mobility: 7,
     Control: -3,
-    Pros: "Hip Fire Accuracy - Sprint to Fire Speed",
+    Pros: "Hip Fire Accuracy",
   },
   {
     id: 6,
@@ -99,6 +99,6 @@ export const attachments: Weaponse[] = [
     FireRate: 0,
     Mobility: 11,
     Control: 0,
-    Pros: "Aim Down Sight Speed - Aiming Stability - ianalking saadinas",
+    Pros: "Aim Down Sight Speed",
   },
 ];
