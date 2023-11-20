@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     height: 100vh;
 }
