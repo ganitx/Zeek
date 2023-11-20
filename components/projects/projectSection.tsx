@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import * as Icon from 'react-bootstrap-icons';
 import Link from 'next/link';
+import Image from 'next/image';
 
 type IProjectDetails = {
     title?: string;
@@ -29,7 +30,7 @@ export default function ProjectSection({ projectDetails, link }: { projectDetail
                         <h1 className='text-2xl pb-2 font-bold'>{projectDetails.title}</h1>
                         <p className='text-stone-500 font-serif md:text-lg'>{projectDetails.about}</p>
                     </div>
-                    <div className='w-full md:w-1/6'>
+                    <div className='w-full md:w-1/3'>
                         <h1 className='text-teal-400 text-sm md:text-xl font-bold p-3'>Stack used</h1>
                         <div className='flex flex-wrap gap-2'>
                             {projectDetails.tech?.map((item: string, idx: number) => (
