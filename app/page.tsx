@@ -12,12 +12,7 @@ export default function page(): React.JSX.Element {
     const chessGame = {
         title: "Chess Game",
         about: "A fully-functional chess game with real-time updates, multiplayer support for registered users, rankings, filtering, and AI engine opponents.",
-        img: [
-            "/chess-1",
-            "/chess-2",
-            "/chess-3",
-            "/chess-4",
-        ],
+        img: "/chess-1",
         tech: [
             "React", "Redux", "ExpressJs", "Javascript",
             "MongoDB", "Mongoose", "Typescript", "NodeJs",
@@ -28,12 +23,7 @@ export default function page(): React.JSX.Element {
     const Ecommerce = {
         title: "E-commerce",
         about: "The E-commerce web application is a full-stack solution that provides a user-friendly interface, supports data filtering, and integrates with Stripe API gateway.",
-        img: [
-            "/ecommerce-1",
-            "/ecommerce-2",
-            "/ecommerce-3",
-            "/ecommerce-4",
-        ],
+        img: "/ecommerce-1",
         tech: [
             "Strip", "SQL", "PostgreSQL", "React",
             "ExpressJs", "NodeJs", "SCSS", "Typescript",
@@ -43,12 +33,7 @@ export default function page(): React.JSX.Element {
     const Notepad = {
         title: "Notepad",
         about: "The Note pad application is a full-stack application that supports the REST API and CRUD implementation, integrated with MongoDB. The app also supports labels, reminders, filter search, offline mode, and dark mode features.",
-        img: [
-            "notepad-1",
-            "notepad-2",
-            "notepad-3",
-            "notepad-4",
-        ],
+        img: "notepad-1",
         tech: [
             "React", "CSS", "NodeJs", "ExpressJs",
             "MongoDB", "Mongoose",

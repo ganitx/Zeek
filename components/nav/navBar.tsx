@@ -4,16 +4,11 @@ import Link from 'next/link';
 
 export default function NavBar(): React.JSX.Element {
     return (
-        <nav className='fixed flex flex-row justify-evenly items-center top-12 left-1/2 transform -translate-x-1/2 mt-1 bg-zinc-900 min-w-1/2 md:w-1/3 pl-10 pr-10 h-auto rounded-md pt-5 pb-5 gap-6 z-40'>
+        <nav className='fixed flex flex-row justify-evenly items-center top-12 left-[48%] transform -translate-x-1/2 mt-1 bg-zinc-900 w-2/3 md:w-1/3 pl-10 pr-10 h-auto rounded-md pt-5 pb-5 gap-6 z-40'>
             <ul className='flex flex-row gap-6'>
                 <Link href={"#intro"}>
                     <li className='cursor-pointer text-neutral-400 hover:text-white transition duration-300 ease-in-out'>
                         Go up
-                    </li>
-                </Link>
-                <Link href={'/'}>
-                    <li className='cursor-pointer text-neutral-400 hover:text-white transition duration-300 ease-in-out'>
-                            Books
                     </li>
                 </Link>
             </ul>
@@ -35,6 +30,5 @@ export default function NavBar(): React.JSX.Element {
                 </Link>
             </ul>
         </nav>
-      );
-      
+    ); 
 }
