@@ -1,6 +1,4 @@
 
-"use client"
-
 import AnimateCol from '@/components/intro/animateCol';
 import IntroSection from '@/components/intro/introSection';
 import NavBar from '@/components/nav/navBar';
