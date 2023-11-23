@@ -9,6 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body 
+        suppressHydrationWarning={true}
         className={`relative bg-zinc-950 text-white min-w-full`}
       >
         {children}

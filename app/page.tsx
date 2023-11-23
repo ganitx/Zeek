@@ -1,9 +1,11 @@
+"use client";
 
 import AnimateCol from '@/components/intro/animateCol';
 import IntroSection from '@/components/intro/introSection';
 import NavBar from '@/components/nav/navBar';
 import ProjectSection from '@/components/projects/projectSection';
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect } from 'react';
 
 export default function page(): React.JSX.Element {
     const chessGame = {
@@ -42,6 +44,23 @@ export default function page(): React.JSX.Element {
         ecommerce: { link: 'https://paw-e-commerce.vercel.app/' },
         notepad: { link: 'https://task-manager-ghanem10.vercel.app/' },
     };
+
+    useEffect(() => {
+        const call = async () => {
+            try {
+                await Promise.all([
+                    await axios.get("https://test-svvl.onrender.com/test").then(res => console.log(res.data)),
+                    await axios.get("https://ecommerce-7ro0.onrender.com/test").then(res => console.log(res.data)),
+                    await axios.get("https://task-backend-ckgg.onrender.com/test").then(res => console.log(res.data)),
+                ]);
+                
+            } catch (error) {
+                console.log(error);
+            }
+        };
+
+        call();
+    }, []);
 
     return (
         <React.Fragment>
