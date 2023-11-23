@@ -31,7 +31,7 @@ export default function page(): React.JSX.Element {
 
     const Notepad = {
         title: "Notepad",
-        about: "The Note pad application is a full-stack application that supports the REST API and CRUD implementation, integrated with MongoDB. The app also supports labels, reminders, filter search, offline mode, and dark mode features.",
+        about: "The Notepad application is a full-stack application that supports REST API and CRUD features, the backend hosted on ec2 instance and integrated with MongoDB.",
         img: "notepad-1",
         tech: [
             "React", "CSS", "NodeJs", "ExpressJs",

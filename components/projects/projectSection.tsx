@@ -25,8 +25,8 @@ export default function ProjectSection({ projectDetails, link }: { projectDetail
                         <img className='w-full h-auto' src={`${projectDetails.img}.PNG`} alt="" />
                     </div>
                 </div>
-                <div className='flex flex-col md:flex-row gap-10 w-full h-auto p-7'>
-                    <div className='flex flex-col w-full md:w-1/2 gap-10'>
+                <div className='flex flex-col md:flex-row gap-10 w-full h-auto p-3 md:p-7'>
+                    <div className='flex flex-col w-full md:w-1/2 gap-3 md:gap-10'>
                         <h1 className='text-2xl pb-2 font-bold'>{projectDetails.title}</h1>
                         <p className='text-stone-500 font-serif md:text-lg'>{projectDetails.about}</p>
                     </div>
