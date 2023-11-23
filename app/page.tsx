@@ -7,7 +7,7 @@ import ProjectSection from '@/components/projects/projectSection';
 import axios from 'axios';
 import React, { useEffect } from 'react';
 
-export default function page(): React.JSX.Element {
+export default function Page(): React.JSX.Element {
     const chessGame = {
         title: "Chess Game",
         about: "A fully-functional chess game with real-time updates, multiplayer support for registered users, rankings, filtering, and AI engine opponents.",
