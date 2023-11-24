@@ -18,7 +18,7 @@ export default function NavBar(): React.JSX.Element {
                         <Icon.Github className='text-zinc-600 w-5 h-5 hover:text-zinc-400 transition duration-300 ease-in-out' />
                     </li>
                 </Link>
-                <Link href={"https://www.linkedin.com/in/ghanem-alhamad/"}>
+                <Link href={"/"}>
                     <li>
                         <Icon.Linkedin className='text-zinc-500 w-5 h-5 hover:text-sky-700 transition duration-300 ease-in-out' />
                     </li>
