@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Main | Portfolio',
-}
+} 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
