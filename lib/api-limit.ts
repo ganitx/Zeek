@@ -6,6 +6,7 @@ import { MAX_FREE_COUNTS } from "@/constants";
 export const incrementApiLimit = async () => {
   const { userId } = auth();
 
+  console.log(userId)
   if (!userId) {
     return;
   }
@@ -13,7 +14,7 @@ export const incrementApiLimit = async () => {
   const userApiLimit = await prismadb.userApiLimit.findUnique({
     where: { userId: userId },
   });
-
+  
   if (userApiLimit) {
     await prismadb.userApiLimit.update({
       where: { userId: userId },
