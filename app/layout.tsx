@@ -1,12 +1,19 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
+import { ClerkProvider } from '@clerk/nextjs'
+
+import { ToasterProvider } from '@/components/toaster-provider'
+import { ModalProvider } from '@/components/modal-provider'
+import { CrispProvider } from '@/components/crisp-provider'
+
 import './globals.css'
 
 const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  description: 'AI Platform',
+  title: 'AI Generator',
+  description: 'AI Generator',
 }
 
 export default async function RootLayout({
@@ -15,10 +22,15 @@ export default async function RootLayout({
   children: React.ReactNode
 }) {
   return (
-      <html lang="en" suppressHydrationWarning>
-        <body className={font.className}>
+    <ClerkProvider>
+      <html lang="en">
+        <CrispProvider />
+        <body className={`${font.className} bg-stone-900`} >
+          <ToasterProvider />
+          <ModalProvider />
           {children}
         </body>
       </html>
-  )
+    </ClerkProvider>
+  );
 }

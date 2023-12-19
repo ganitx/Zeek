@@ -30,12 +30,5 @@ export const tools = [
     color: "text-orange-700",
     bgColor: "bg-orange-700/10",
     href: '/video',
-  },
-  {
-    label: 'Code Generation',
-    icon: Code,
-    color: "text-green-700",
-    bgColor: "bg-green-700/10",
-    href: '/code',
-  },
+  }
 ];
