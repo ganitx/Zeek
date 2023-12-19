@@ -23,7 +23,7 @@
 - How to reuse layouts
 - Folder structure in Next 13 App Router
 
-  ### Installation
+  # Installation
     1. Clone the repository.
 
            https://github.com/Ghanem10/Zeek.git
