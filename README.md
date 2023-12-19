@@ -1,6 +1,6 @@
 # Zeek AI generator 
 
-### Zeek AI generator uses openAI APIs, and Replicate AI, to create written, video, and music content, and customer support with crips and is powered by Stripe subscriptions.
+* Zeek AI generator uses openAI APIs, and Replicate AI, to create written, video, and music content, and customer support with crips and is powered by Stripe subscriptions.
 
 
 # Features
