@@ -24,6 +24,6 @@
 - Folder structure in Next 13 App Router
 
   ### Installation
-  1. Clone the repository.
+    1. Clone the repository.
 
-         https://github.com/Ghanem10/chess-game.git
+           https://github.com/Ghanem10/Zeek.git
