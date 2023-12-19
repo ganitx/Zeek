@@ -1,19 +1,24 @@
-import { Metadata } from 'next';
-import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+
+import './globals.css'
+
+const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Main | Portfolio',
-} 
+  description: 'AI Platform',
+}
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <body 
-        suppressHydrationWarning={true}
-        className={`relative bg-zinc-950 text-white min-w-full`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+      <html lang="en" suppressHydrationWarning>
+        <body className={font.className}>
+          {children}
+        </body>
+      </html>
+  )
 }
